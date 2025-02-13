@@ -50,7 +50,6 @@ const App = () => {
   };
 
   const toggleCategory = (category) => {
-    console.log(category);
     setExpandedCategories((prev) => ({
       ...prev,
       [category]: !prev[category],
@@ -68,7 +67,7 @@ const App = () => {
     >
       <div className="container ">
         <img
-          style={{ width: "50%", display: "block", margin: "0 auto" }}
+          style={{ width: "50vw", display: "block", margin: "0 auto" }}
           src="/images/Logo.png"
           alt="0"
         />
@@ -121,7 +120,7 @@ const App = () => {
                     { gold: "goldBkg", silver: "silverBkg" }[category] ||
                     "otherBkg"
                   }.png`}
-                  width="6%"
+                  width="60px"
                   style={{ margin: "10px" }}
                   alt="0"
                 />
@@ -138,7 +137,7 @@ const App = () => {
                     { gold: "goldBkg", silver: "silverBkg" }[category] ||
                     "otherBkg"
                   }.png`}
-                  width="6%"
+                  width="60px"
                   style={{ margin: "10px" }}
                   alt="0"
                 />
@@ -254,6 +253,8 @@ const App = () => {
                       </a>{" "}
                       : فايسبوك{" "}
                     </td>
+                  </tr>
+                  <tr>
                     <td>الهاتف: 799 538 28 </td>
                   </tr>
                 </tbody>
