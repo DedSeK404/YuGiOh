@@ -128,7 +128,7 @@ const App = () => {
                     { gold: "goldBkg", silver: "silverBkg" }[category] ||
                     "otherBkg"
                   }.png`}
-                  style={{ width: "30%", margin: "10px", height: "auto" }}
+                  style={{ width: "60px", margin: "10px", height: "auto" }}
                   alt="0"
                 />
                 <img
@@ -144,7 +144,7 @@ const App = () => {
                     { gold: "goldBkg", silver: "silverBkg" }[category] ||
                     "otherBkg"
                   }.png`}
-                  style={{ width: "30%", margin: "10px", height: "auto" }}
+                  style={{ width: "60px", margin: "10px", height: "auto" }}
                   alt="0"
                 />
               </div>
