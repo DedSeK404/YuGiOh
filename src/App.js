@@ -114,14 +114,21 @@ const App = () => {
                 { gold: "gold", silver: "silver" }[category] || "other"
               }`}
             >
-              <div className={`category-header ${category}-header`}>
+              <div
+                className={`category-header ${category}-header`}
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  width: "100%",
+                }}
+              >
                 <img
                   src={`/images/${
                     { gold: "goldBkg", silver: "silverBkg" }[category] ||
                     "otherBkg"
                   }.png`}
-                  width="60px"
-                  style={{ margin: "10px" }}
+                  style={{ width: "30%", margin: "10px", height: "auto" }}
                   alt="0"
                 />
                 <img
@@ -129,16 +136,15 @@ const App = () => {
                     { gold: "goldbutton", silver: "silverbutton" }[category] ||
                     "otherbutton"
                   }.png`}
+                  style={{ width: "40%", height: "auto" }}
                   alt="0"
-                  width="500px"
                 />
                 <img
                   src={`/images/${
                     { gold: "goldBkg", silver: "silverBkg" }[category] ||
                     "otherBkg"
                   }.png`}
-                  width="60px"
-                  style={{ margin: "10px" }}
+                  style={{ width: "30%", margin: "10px", height: "auto" }}
                   alt="0"
                 />
               </div>
