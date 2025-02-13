@@ -128,7 +128,7 @@ const App = () => {
                     { gold: "goldBkg", silver: "silverBkg" }[category] ||
                     "otherBkg"
                   }.png`}
-                  style={{ width: "60px", margin: "10px", height: "auto" }}
+                  style={{ width: "40px", margin: "10px", height: "auto" }}
                   alt="0"
                 />
                 <img
@@ -136,7 +136,7 @@ const App = () => {
                     { gold: "goldbutton", silver: "silverbutton" }[category] ||
                     "otherbutton"
                   }.png`}
-                  style={{ width: "40%", height: "auto" }}
+                  style={{ width: "50%", height: "auto" }}
                   alt="0"
                 />
                 <img
@@ -144,7 +144,7 @@ const App = () => {
                     { gold: "goldBkg", silver: "silverBkg" }[category] ||
                     "otherBkg"
                   }.png`}
-                  style={{ width: "60px", margin: "10px", height: "auto" }}
+                  style={{ width: "40px", margin: "10px", height: "auto" }}
                   alt="0"
                 />
               </div>
